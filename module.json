@@ -1,0 +1,132 @@
+{
+  "id": "meidos-ipsara",
+  "title": "Esoterica: Meidos Ipsara",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Module for Dan's ESO EGO things</p>",
+  "authors": [
+    {
+      "name": "zephyrse",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true,
+    "meidos-ipsara": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "unavoidable": {
+            "label": "Unavoidable",
+            "description": "<p>Feats with this trait deal half-damage on a failure or critical failure.</p>"
+          },
+          "ego": {
+            "label": "EGO",
+            "description": "<p>Items with this trait use a persons ego to manifest.</p>"
+          }
+        }
+      }
+    }
+  },
+  "packFolders": [
+    {
+      "name": "Esoterica: Meidos Ipsara",
+      "sorting": "m",
+      "color": "#3b2525",
+      "packs": [
+        "custom-ego-spells",
+        "custom-ego-identities",
+        "custom-ego-monsters",
+        "custom-ego-items",
+        "custom-ego-rollable",
+        "custom-ego-sidestory"
+      ],
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "custom-ego-spells",
+      "label": "EGO Abnormalities",
+      "path": "packs/custom-ego-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OWNER"
+      },
+      "banner": "modules/meidos-ipsara/assets/banner/spell-banner.webp",
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "custom-ego-identities",
+      "label": "EGO Identities",
+      "path": "packs/custom-ego-identities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OWNER"
+      },
+      "banner": "modules/meidos-ipsara/assets/banner/item-banner2.webp",
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "custom-ego-monsters",
+      "label": "EGO Monsters",
+      "path": "packs/custom-ego-monsters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OWNER"
+      },
+      "banner": "modules/meidos-ipsara/assets/banner/item-banner3.webp",
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "custom-ego-items",
+      "label": "EGO Items",
+      "path": "packs/custom-ego-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OWNER"
+      },
+      "banner": "modules/meidos-ipsara/assets/banner/item-banner.webp",
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "custom-ego-rollable",
+      "label": "EGO Rollable Tables",
+      "path": "packs/custom-ego-rollable",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OWNER"
+      },
+      "banner": "modules/meidos-ipsara/assets/banner/banner-rollable.webp",
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "custom-ego-sidestory",
+      "label": "Identity Side Stories",
+      "path": "packs/custom-ego-sidestory",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OWNER"
+      },
+      "banner": "modules/meidos-ipsara/assets/banner/banner-sidestory.webp",
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/zephyrse-dnd/esoterica-ipsara-dnd",
+  "manifest": "https://github.com/zephyrse-dnd/esoterica-ipsara-dnd/releases/download/v0.1.0/module.json",
+  "download": "https://github.com/zephyrse-dnd/esoterica-ipsara-dnd/releases/download/v0.1.0/module.zip"
+}
